@@ -1,0 +1,9 @@
+[build]
+    functions = "lambda"
+    publish = "build"
+
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/lambda/index"
+  status = 200
